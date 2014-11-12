@@ -1,0 +1,19 @@
+language: haskell
+ghc:
+  - 7.4
+  - 7.6
+  - 7.8
+os:
+  - linux
+  - osx
+before_script:
+  - cabal sdist
+  - mkdir travisbuild
+  - mv dist/include-file*.tar.gz travisbuild/include-file.tar.gz
+  - cd travisbuild
+  - tar xzvf include-file.tar.gz
+  - cd include-file*
+script:
+  - cabal configure --enable-tests --ghc-option=-Werror
+  - cabal build
+  - cabal test
