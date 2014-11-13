@@ -7,6 +7,7 @@ os:
   - linux
   - osx
 before_script:
+  - cabal install random
   - cabal sdist
   - mkdir travisbuild
   - mv dist/include-file*.tar.gz travisbuild/include-file.tar.gz
