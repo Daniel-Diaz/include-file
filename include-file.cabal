@@ -1,5 +1,5 @@
 name:                include-file
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Inclusion of files in executables at compile-time.
 description:         Inclusion of files in source code via Template Haskell.
                      .
@@ -14,7 +14,7 @@ author:              Daniel Díaz
 maintainer:          dhelta.diaz@gmail.com
 category:            Development
 build-type:          Custom
-cabal-version:       >=1.10
+cabal-version:       >= 1.10
 
 library
   exposed-modules: Development.IncludeFile
