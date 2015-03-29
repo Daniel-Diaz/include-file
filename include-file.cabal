@@ -1,5 +1,5 @@
 name:                include-file
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            Inclusion of files in executables at compile-time.
 description:         Inclusion of files in source code via Template Haskell.
                      .
@@ -12,6 +12,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Daniel Díaz
 maintainer:          dhelta.diaz@gmail.com
+bug-reports:         https://github.com/Daniel-Diaz/include-file/issues
 category:            Development
 build-type:          Custom
 cabal-version:       >= 1.10

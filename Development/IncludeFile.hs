@@ -16,7 +16,7 @@
 -- > $(includeFileInSource "foo.png" "myImage")
 -- >
 --
---   This defines the @myImage@ value with type 'S.ByteString' and with the content of the file @foo.png@.
+--   This defines the @myImage@ value with type 'B.ByteString' and with the content of the file @foo.png@.
 --
 -- = Using 'includeFileInSource'
 --

@@ -5,7 +5,7 @@ import qualified Data.ByteString as B
 import Control.Monad (replicateM)
 
 main :: IO ()
-main = do
+main =
   defaultMainWithHooks $
     simpleUserHooks
       { preBuild = \_ _ -> do
