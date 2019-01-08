@@ -21,6 +21,7 @@ custom-setup
   setup-depends: base == 4.*
                , bytestring
                , random
+               , Cabal
 
 library
   exposed-modules: Development.IncludeFile
