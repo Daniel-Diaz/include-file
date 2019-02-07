@@ -17,6 +17,12 @@ category:            Development
 build-type:          Custom
 cabal-version:       >= 1.10
 
+custom-setup
+  setup-depends: base == 4.*
+               , bytestring
+               , random
+               , Cabal
+
 library
   exposed-modules: Development.IncludeFile
   build-depends: base == 4.*
